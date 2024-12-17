@@ -5,7 +5,7 @@ void setup() {
 }
 
 //🎯Varaible Declarations Go Here
-var eyeSize = 8;
+var eyeSize = 60;
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
@@ -52,7 +52,7 @@ void mousePressed(){
   console.log(myText);
   
   
-}
+eyeSize = eyeSize+1}
 
 //🟡Key Pressed Procedure - Runs When Keyboard Key is Pressed
 void keyPressed(){
